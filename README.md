@@ -26,7 +26,7 @@ Este é um projeto desenvolvido como parte do curso Rocketseat Ignite, focado em
 
 ### Requisitos para instalação:
 
-para conseguir prosseguir com os passo voce deve ter o node instalado em sua máquina.
+para conseguir prosseguir com os passos abaixo você deve ter o node instalado em sua máquina.
 
 1. Clone o repositório:
 
