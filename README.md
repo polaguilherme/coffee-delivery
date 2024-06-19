@@ -33,7 +33,7 @@ para conseguir prosseguir com os passos abaixo você deve ter o node instalado e
 1. Clone o repositório:
 
 ```bash
-  git clone https://github.com/seu-usuario/coffee-delivery.git
+  git clone https://github.com/polaguilherme/coffee-delivery.git
 ```
 
 2. Intstale as dependências
