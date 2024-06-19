@@ -34,7 +34,7 @@ para conseguir prosseguir com os passo voce deve ter o node instalado em sua má
   git clone https://github.com/seu-usuario/coffee-delivery.git
 ```
 
-2. Intstale as dependênciasÇ
+2. Intstale as dependências
 
 ```bash
 cd coffee-delivery
