@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# Coffee Delivery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido como parte do curso Rocketseat Ignite, focado em criar uma aplicação de entrega de café utilizando React, TypeScript, e outras tecnologias modernas.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cadastro de Usuário**: Permite que novos usuários se cadastrem na plataforma.
+- **Login**: Autenticação segura para acesso dos usuários.
+- **Seleção de Produtos**: Lista de produtos disponíveis para entrega.
+- **Carrinho de Compras**: Funcionalidade para selecionar e revisar os produtos antes de finalizar o pedido.
+- **Pagamento**: Integração com sistema de pagamento para finalização do pedido.
+- **Rastreamento de Pedidos**: Recurso para acompanhar o status dos pedidos em tempo real.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React** e **React DOM**: Bibliotecas para construção da interface de usuário.
+- **React Router DOM**: Para navegação entre páginas na aplicação.
+- **Context API** e **Reducer**: Gerenciamento de estado global na aplicação.
+- **React Hook Form**: Para construção e validação de formulários.
+- **Zod**: Para validação de schemas de dados.
+- **Immer**: Facilita a criação de cópias imutáveis do estado.
+- **Intl**: Para formatação.
+- **Phosphor React**: Ícones utilizados na interface.
+- **TypeScript**: Superset JavaScript que adiciona tipagem estática.
+- **Vite**: Ferramenta de build rápida para desenvolvimento moderno.
+- **Tailwind CSS**: Framework de CSS utilizado para estilização.
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Requisitos para instalação:
+
+para conseguir prosseguir com os passo voce deve ter o node instalado em sua máquina.
+
+1. Clone o repositório:
+
+```bash
+  git clone https://github.com/seu-usuario/coffee-delivery.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Intstale as dependênciasÇ
+
+```bash
+cd coffee-delivery
+npm install
+```
+
+3. Para abrir o projeto no navegador execute o comando:
+
+```bash
+npm run dev
+```
+
+4. Acesse o localhost no navegador com a url:
+
+```bash
+localhost:5173
+```

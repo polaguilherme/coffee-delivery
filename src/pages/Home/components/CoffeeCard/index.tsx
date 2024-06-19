@@ -9,7 +9,7 @@ export interface Coffee {
   tags: string[];
   name: string;
   price: number;
-  photo: string;
+  image: string;
   description: string;
 }
 
@@ -42,7 +42,7 @@ export function CoffeeCard({ coffee }: CoffeeCardProps) {
   return (
     <div className=" bg-base-card h-72 rounded-tl-md rounded-tr-3xl rounded-bl-3xl rounded-br-md flex flex-col items-center gap-2">
       <div className="-mt-5 ">
-        <img src={`/coffees/${coffee.photo}`} alt="" />
+        <img src={`/coffees/${coffee.image}`} alt="" />
       </div>
 
       <div className="flex gap-1">
