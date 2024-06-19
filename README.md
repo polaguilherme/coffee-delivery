@@ -50,5 +50,5 @@ npm run dev
 4. Acesse o localhost no navegador com a url:
 
 ```bash
-localhost:5173
+http://localhost:5173
 ```
