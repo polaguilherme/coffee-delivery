@@ -4,12 +4,9 @@ Este é um projeto desenvolvido como parte do curso Rocketseat Ignite, focado em
 
 ## Funcionalidades
 
-- **Cadastro de Usuário**: Permite que novos usuários se cadastrem na plataforma.
-- **Login**: Autenticação segura para acesso dos usuários.
 - **Seleção de Produtos**: Lista de produtos disponíveis para entrega.
 - **Carrinho de Compras**: Funcionalidade para selecionar e revisar os produtos antes de finalizar o pedido.
-- **Pagamento**: Integração com sistema de pagamento para finalização do pedido.
-- **Rastreamento de Pedidos**: Recurso para acompanhar o status dos pedidos em tempo real.
+- **Pagamento**: Integração com sistema de pagamento fictício para finalização do pedido .
 
 ## Tecnologias Utilizadas
 
