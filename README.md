@@ -10,7 +10,7 @@ Este é um projeto desenvolvido como parte do curso Rocketseat Ignite, focado em
 
 ## Tecnologias Utilizadas
 
-- **React** e **React DOM**: Bibliotecas para construção da interface de usuário.
+- **React**: Bibliotecas para construção da interface de usuário.
 - **React Router DOM**: Para navegação entre páginas na aplicação.
 - **Context API** e **Reducer**: Gerenciamento de estado global na aplicação.
 - **React Hook Form**: Para construção e validação de formulários.
